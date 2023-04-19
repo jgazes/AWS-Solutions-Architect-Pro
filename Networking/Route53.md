@@ -28,3 +28,19 @@ Latency | Which resources has lower latency from you then ill direct you that wa
 Multivalue Answer | I will return several IP addresses as a sort of basic load balancer
 Weighted | You can setup multiple resources and route according to the percentage of the weight you assign each
 
+## Route 53 DNS Record Types ##
+- A Record: IPv4
+- AAAA Record: IPv6
+- CAA Record: Certificate Authority
+- CName (canonical name) Record: domain name
+- DS (delegation signer) Record: Zone Key
+- MX Record: mail servers
+- NAPTR (name authority pointer) Record: DDDS Applications
+- NS Record: name servers for the hosted zone
+- PTR Record: maps an IP address ot the corresponding domain name
+- SOA (start of authority) Record: domain and corresponding hosted zone
+- SPF (sender policy framework) Record: verify identity of sender email messages
+- SRV Record: priority, weight, port, domain
+- TXT Record: String
+
+
