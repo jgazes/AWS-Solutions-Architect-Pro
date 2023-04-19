@@ -7,6 +7,7 @@
 - Multicast and Broadcast arent supported in VPCs
 - Know what is meant by stateless, stateful, connectionless and connection based in terms of IP protocols
 - Know what ephemeral ports are and why they might need to be in NACLs or SGs
+- Ephemeral Ports for NAT Gateways: A NAT gateway uses ports 1024-65535.
 
 ## Routing ##
 - Understand BGP and how to use weighting to shift network traffic.
