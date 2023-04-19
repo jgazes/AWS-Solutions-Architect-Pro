@@ -37,3 +37,7 @@ Gateway Endpoint
 - S3, DynamoDB
 - Secured through VPC endpoint policies
 
+## AWS Direct Connect ##
+- AWS Direct Connect connections are highly available
+- AWS Direct Connect can be connected to an internet gateway to route traffic to the internet.
+- Direct Connect connections consist of a single connection between your network and AWS with no inherent redundancy. Additionally, traffic coming from on-premises via a Direct Connect connect is restricted from internet access. You must create a virtual interface (public, private or transit) in order to begin using your AWS Direct Connect connection.

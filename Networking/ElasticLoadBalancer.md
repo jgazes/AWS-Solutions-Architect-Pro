@@ -35,6 +35,7 @@
 Network Load Balancers
 - Port Number
 - TCP connections to backend are persisted for the duration
+- Supports EIP
 
 Application Load Balancers
 - Host based 
@@ -43,5 +44,6 @@ Application Load Balancers
 - HTTP method
 - Query string parameter
 - Source IP CIDR
+- Does not support EIP
 
 

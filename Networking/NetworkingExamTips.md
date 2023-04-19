@@ -7,7 +7,10 @@
 - Multicast and Broadcast arent supported in VPCs
 - Know what is meant by stateless, stateful, connectionless and connection based in terms of IP protocols
 - Know what ephemeral ports are and why they might need to be in NACLs or SGs
-- Ephemeral Ports for NAT Gateways: A NAT gateway uses ports 1024-65535.
+- Ephemeral Ports for NAT Gateways: A NAT gateway uses ports 1024-65535. 
+- The VPC CIDR block size is fixed at /56. The subnet CIDR block size is fixed at /64.
+- AWS supports IPv6 traffic over a virtual private gateway to an AWS Direct Connect connection.
+- Application Load Balancers don't support EIPs.
 
 ## Routing ##
 - Understand BGP and how to use weighting to shift network traffic.
@@ -25,7 +28,7 @@
 - Internet Gateway is horizontally scaled, redundant, with no bandwidth constraints
 - NATs do have bandwidth constraints
 - VPCs can have multiple NATs across AZs and subnets for scale - so long as routes are defined properly
-- Use Egress-Only Gateway for IPv6
+- Use Egress-Only Gateway for IPv6. In other words, An egress-only internet gateway is for use with IPv6 traffic only
 
 ## Route 53 ##
 - Understand different types of routing policies and use cases
@@ -40,6 +43,9 @@
 - Know the three different types of load balancers and at which layer they work
 - Understand which major features each deliver
 - Know what sticky sessions are and when they come into play
+
+## AWS Global Accelerator ##
+- AWS Global Accelerator is a networking service that helps you improve the availability, performance, and security of your public applications. Global Accelerator provides two global static public IPs that act as a fixed entry point to your application endpoints, such as Application Load Balancers, Network Load Balancers, Amazon Elastic Compute Cloud (EC2) instances, and elastic IPs.
 
 ## Additional Reading ##
 [Amazon Virtual Private Cloud Connectivity Options January 2018](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://d0.awsstatic.com/whitepapers/aws-amazon-vpc-connectivity-options.pdf)
